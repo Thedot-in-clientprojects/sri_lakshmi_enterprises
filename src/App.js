@@ -22,12 +22,7 @@ function App() {
             <Router>
                 <ScrollToTopRoute />
                 <Switch>
-                    <Route exact path="/home-2">
-                        <Home2 />
-                    </Route>
-                    <Route exact path="/home-3">
-                        <Home3 />
-                    </Route>
+                
                     <Route exact path="/about">
                         <About />
                     </Route>

@@ -18,13 +18,12 @@ function Header1() {
                 className={offset ? 'offset-menu show' : 'offset-menu'}
             />
             <header className="header-wrap header-1">
-                <Topbar />
                 <div className="container">
                     <div className="row align-items-center">
                         <div className="col-8 col-lg-3">
                             <div className="logo">
                                 <Link to="/">
-                                    <img src={Logo} alt="logo" />
+                                    <h3>Sri Lakshmi Enterprises</h3>
                                 </Link>
                             </div>
                         </div>
@@ -36,7 +35,7 @@ function Header1() {
                         <div className="col-12 d-none d-md-block col-lg-9">
                             <div className="header-contact-info text-lg-right">
                                 <div className="single-element">
-                                    <a href="/">(+1) 555 234-8765</a>
+                                    <a href="/">(+91) 9842092187</a>
                                     <span>Call Us Now</span>
                                 </div>
                                 <div className="single-element">
@@ -45,7 +44,7 @@ function Header1() {
                                 </div>
                                 <div className="header-btn d-inline">
                                     <Link to="/contact" className="theme-btn">
-                                        Get A Quote
+                                        Contact Now
                                     </Link>
                                 </div>
                             </div>

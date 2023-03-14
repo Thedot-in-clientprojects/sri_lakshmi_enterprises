@@ -18,7 +18,7 @@ function Hero1() {
                             <div className="row">
                                 <div className="col-12 col-lg-8 col-xl-6">
                                     <div className="hero-contents">
-                                        <h1>Global Automotive</h1>
+                                        <h1>Sri Lakshmi Enterprises</h1>
                                         <Link to="/services" className="theme-btn">
                                             Our Services{' '}
                                             <BsArrowRight style={{ marginLeft: '10px' }} />
@@ -41,7 +41,7 @@ function Hero1() {
                             <div className="row">
                                 <div className="col-12 col-lg-8 col-xl-6">
                                     <div className="hero-contents">
-                                        <h1>Global Automotive</h1>
+                                        <h1>Sri Lakshmi Enterprises</h1>
                                         <a href="services.html" className="theme-btn">
                                             Our Services <i className="fal fa-long-arrow-right" />
                                         </a>
