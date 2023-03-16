@@ -11,19 +11,20 @@ import Pricing from '../components/Pricing';
 import Promo from '../components/Promo';
 import Services1 from '../components/Services1';
 import Subscribe from '../components/Subscribe';
-
+import Services2 from '../components/Services2';
+import servicesTwoData from '../components/Services2/servicesTwoData';
+import ServicesTwoCard from '../components/Services2/SevicesTwoCard';
 function Home1() {
     return (
         <>
             <Header1 />
             <Hero1 />
             <Promo />
+            <Services2 />
             <Services1 />
             <Cta />
             <Faq />
             <Portfolio1 />
-            <Pricing />
-            <Analytics />
             <Subscribe />
             <Blog1 />
             <Footer1 />

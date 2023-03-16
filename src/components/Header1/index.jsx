@@ -39,7 +39,7 @@ function Header1() {
                                     <span>Call Us Now</span>
                                 </div>
                                 <div className="single-element">
-                                    <a href="/">@google.com</a>
+                                    <a href="/">adalarasanlakshmi@google.com</a>
                                     <span>Mail Us Now</span>
                                 </div>
                                 <div className="header-btn d-inline">

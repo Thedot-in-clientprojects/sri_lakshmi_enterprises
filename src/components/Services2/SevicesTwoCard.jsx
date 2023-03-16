@@ -13,16 +13,12 @@ function SevicesTwoCard({ thumbnail, icon, heading, text }) {
                     }}
                 />
                 <div className="content">
-                    <div className="case-cat">
-                        <Link to="/services-details">{icon}</Link>
-                    </div>
+            
                     <h3>
                         <Link to="/services-details">{heading}</Link>
                     </h3>
                     <p>{text}</p>
-                    <Link to="/services-details" className="read-btn">
-                        Read More <BsArrowRight />
-                    </Link>
+           
                 </div>
             </div>
         </div>

@@ -33,59 +33,9 @@ function Footer1() {
                             youtubeLink="/"
                         />
 
-                        {/* NEWS FEED WIDGET */}
 
-                        <div className="col-md-6 col-xl-3 col-12">
-                            <div className="single-footer-wid recent_post_widget">
-                                <div className="wid-title">
-                                    <h4>News Feeds</h4>
-                                </div>
-                                <div className="recent-post-list">
-                                    {WidgetNewsData.map((data) => (
-                                        <WidgetNews
-                                            key={data.id}
-                                            thumbnail={data.thumbnail}
-                                            meta={data.meta}
-                                            heading={data.heading}
-                                            link={data.link}
-                                        />
-                                    ))}
-                                </div>
-                            </div>
-                        </div>
 
-                        {/* NEWSLETTER WIDGET */}
-                        <div className="col-md-6 col-xl-3 col-12">
-                            <div className="single-footer-wid newsletter_widget">
-                                <div className="wid-title">
-                                    <h4>Newsletter</h4>
-                                </div>
-                                <div className="newsletter_box">
-                                    <p>
-                                        Subscribe our newsletter to get our latest updates &#38;
-                                        news.
-                                    </p>
-                                    <form action="#">
-                                        <input
-                                            value={email}
-                                            onChange={onchangeHandler}
-                                            type="email"
-                                            placeholder="Enter email address"
-                                            required
-                                        />
-                                        <button
-                                            className="submit-btn"
-                                            type="submit"
-                                            onSubmit={onSubmitHandler}
-                                        >
-                                            <FaPaperPlane />
-                                        </button>
-                                    </form>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div className="col-md-6 col-xl-3 col-12">
+                        <div className="col-md-6 col-xl-6 col-12">
                             <div className="single-footer-wid ml-15 site_info_widget">
                                 <div className="wid-title">
                                     <h4>Get In Touch</h4>
@@ -111,14 +61,14 @@ function Footer1() {
                         <div className="col-lg-4 col-12">
                             <div className="copyright-info">
                                 <p>
-                                    &copy; Copyright By <a href="index.html">Dustrix</a> - 2021
+                                    &copy; Copyright By <a href="index.html">Sri Lakshmi Enterprises</a> - 2023
                                 </p>
                             </div>
                         </div>
                         <div className="col-lg-4 col-12 text-center">
                             <div className="footer-logo">
                                 <a href="#top">
-                                    <img src={logo} alt="Dustrix" />
+                                    <h2>Sri Lakshmi Enterprises</h2>
                                 </a>
                             </div>
                         </div>

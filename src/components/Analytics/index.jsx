@@ -8,7 +8,7 @@ function Analytics() {
                 <div className="row align-center">
                     <div className="col-xl-6 pr-xl-5 col-12">
                         <div className="block-contents">
-                            <span>Business Analytics</span>
+                            <span>S</span>
                             <h1>{analyticsData.heading}</h1>
                             <h4>{analyticsData.subHeading}</h4>
                             <p>{analyticsData.desc}</p>

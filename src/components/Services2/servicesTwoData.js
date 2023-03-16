@@ -6,55 +6,36 @@ import thumb3 from '../../assets/img/service3.jpg';
 import thumb4 from '../../assets/img/service4.jpg';
 import thumb5 from '../../assets/img/service5.jpg';
 import thumb6 from '../../assets/img/service6.jpg';
+import Bg1 from '../../assets/img/home1/one.png';
+import Bg3 from '../../assets/img/home1/two.png';
+import Bg4 from '../../assets/img/home1/three.png';
+import Bg2 from '../../assets/img/home1/power.jpg';
 
-const servicesTwoData = [
-    {
+const servicesTwoData = [{
         id: uuidv4(),
-        thumbnail: thumb1,
-        icon: <FaDraftingCompass />,
-        heading: 'Metal Forming',
-        text: 'Lorem ipsum dolor sit amet, consectet ur adipisicing elit, sed do eiusmod.',
+        thumbnail: Bg1,
+        icon: < FaDraftingCompass / > ,
+        heading: 'Shot Blasting',
+        text: 'We offer shot blasting machine service and new machine manufacturing.',
     },
 
     {
         id: uuidv4(),
-        thumbnail: thumb2,
-        icon: <FaRegBuilding />,
-        heading: 'Manufacturing',
-        text: 'Lorem ipsum dolor sit amet, consectet ur adipisicing elit, sed do eiusmod.',
+        thumbnail: Bg3,
+        icon: < FaRegBuilding / > ,
+        heading: 'Crane',
+        text: 'Crane starts at 500Kg to 50Tons Service and new manufacturing.',
     },
 
     {
         id: uuidv4(),
-        thumbnail: thumb3,
-        icon: <FaTruckMoving />,
-        heading: 'Welding & Laser',
-        text: 'Lorem ipsum dolor sit amet, consectet ur adipisicing elit, sed do eiusmod.',
+        thumbnail: Bg4,
+        icon: < FaTruckMoving / > ,
+        heading: 'Bucket',
+        text: 'We offer bucket 100Kg to 2Tons service and manufacture.',
     },
 
-    {
-        id: uuidv4(),
-        thumbnail: thumb4,
-        icon: <FaRegBuilding />,
-        heading: 'Construction Management',
-        text: 'Lorem ipsum dolor sit amet, consectet ur adipisicing elit, sed do eiusmod.',
-    },
 
-    {
-        id: uuidv4(),
-        thumbnail: thumb5,
-        icon: <FaCity />,
-        heading: 'Apartment Design',
-        text: 'Lorem ipsum dolor sit amet, consectet ur adipisicing elit, sed do eiusmod.',
-    },
-
-    {
-        id: uuidv4(),
-        thumbnail: thumb6,
-        icon: <FaHardHat />,
-        heading: 'Architecture & Building',
-        text: 'Lorem ipsum dolor sit amet, consectet ur adipisicing elit, sed do eiusmod.',
-    },
 ];
 
 export default servicesTwoData;

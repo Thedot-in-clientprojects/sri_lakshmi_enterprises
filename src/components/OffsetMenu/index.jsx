@@ -30,8 +30,7 @@ function OffsetMenu({ className, handleOffset }) {
                 <div className="offset-menu-section">
                     <h3>About Us</h3>
                     <p>
-                        We must explain to you how all seds this mistakens idea off denouncing
-                        pleasures and praising pain was born and I will give you a completed
+                    Sri Lakshi
                     </p>
                     <Link to="/contact" className="theme-btn mt-30">
                         Consultation
@@ -40,24 +39,15 @@ function OffsetMenu({ className, handleOffset }) {
                 <div className="offset-menu-section">
                     <h3>Contact Info</h3>
                     <ul>
-                        <li>
+                        <li style={{
+                            marginBottom:15
+                        }}>
                             <span>
                                 <FaMap />
                             </span>
-                            Rock St 12, Newyork City, USA
+                            Sri lakshmi enterprises 5/49,lotus Avenue, Annur road, Arasur(po), Coimbatore
                         </li>
-                        <li>
-                            <span>
-                                <AiOutlinePhone />
-                            </span>
-                            (000) 000-000-0000
-                        </li>
-                        <li>
-                            <span>
-                                <AiOutlineMail />
-                            </span>
-                            info@modinatheme.com
-                        </li>
+                      
                         <li>
                             <span>
                                 <FaClock />

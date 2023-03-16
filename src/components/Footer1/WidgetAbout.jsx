@@ -4,7 +4,7 @@ import { FaFacebookF, FaInstagram, FaTwitter, FaYoutube } from 'react-icons/fa';
 function WidgetAbout({ text, fbLink, twitterLink, instaLink, youtubeLink }) {
     return (
         <>
-            <div className="col-md-6 col-xl-3 col-12">
+            <div className="col-md-6 col-xl-6 col-12">
                 <div className="single-footer-wid">
                     <div className="wid-title">
                         <h4>About Us</h4>
