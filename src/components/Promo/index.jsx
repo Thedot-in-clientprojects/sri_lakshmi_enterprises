@@ -11,7 +11,7 @@ function Promo() {
                     <div className="col-xl-6 col-12 text-center">
                         <img src={AgeImg} alt="age" />
                         <h5>
-                            Years Of Experience With <b>Creative Team</b>
+                            Years Of <b>Manufacturing Experience</b>
                         </h5>
                     </div>
                     <div className="col-xl-6 col-12">
