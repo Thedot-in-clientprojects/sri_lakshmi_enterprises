@@ -38,25 +38,22 @@ function Faq() {
                     <div className="col-xl-6 col-12 mt-4 mt-xl-0">
                         <div className="faq-content">
                             <FaqAccordion
-                                question="How Do We Manage Quality Assurance?"
-                                answer="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec rhoncus dolor at libero ultricies ullamcorper vel ut dui. Maecenas sollicitudin risus non faucibus blandit. Nulla facilisi."
+                                question="What are foundry machines?"
+                                answer="Foundry machines are specialized equipment used in the process of casting metal into different shapes and sizes. They include equipment such as molding machines, melting furnaces, sand mixers, core shooters, and other auxiliary equipment used in the foundry process."
                             />
                             <FaqAccordion
-                                question="With Diverse Capabilities And Extensive Manufacturing?"
-                                answer="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec rhoncus dolor at libero ultricies ullamcorper vel ut dui. Maecenas sollicitudin risus non faucibus blandit. Nulla facilisi."
+                                question="What is the role of foundry machines in manufacturing?"
+                                answer="Foundry machines are used to melt, pour, and shape metal into specific forms required by customers. They are essential in the production of various metal products such as engine blocks, automotive parts, machinery parts, and many other metal products."
                             />
                             <FaqAccordion
-                                question="You Can Rely On Amwerk As A Critical Part?"
-                                answer="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec rhoncus dolor at libero ultricies ullamcorper vel ut dui. Maecenas sollicitudin risus non faucibus blandit. Nulla facilisi."
+                                question="What types of foundry machines are there?"
+                                answer="There are different types of foundry machines, including molding machines, melting furnaces, sand mixers, core shooters, shakeout machines, shot blasting machines, and many others. Each machine has a specific role in the foundry process."
                             />
                             <FaqAccordion
-                                question="How Do We Manage Quality Assurance?"
-                                answer="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec rhoncus dolor at libero ultricies ullamcorper vel ut dui. Maecenas sollicitudin risus non faucibus blandit. Nulla facilisi."
+                                question="How are foundry machines maintained?"
+                                answer="Foundry machines require regular maintenance to ensure optimal performance and longevity. Maintenance activities include cleaning, lubrication, inspection, and repair of worn-out parts. Regular maintenance ensures that the machines operate efficiently, minimize downtime, and increase productivity."
                             />
-                            <FaqAccordion
-                                question="Appropriately Communicate One-To-One Technology?"
-                                answer="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec rhoncus dolor at libero ultricies ullamcorper vel ut dui. Maecenas sollicitudin risus non faucibus blandit. Nulla facilisi."
-                            />
+                        
                         </div>
                     </div>
                 </div>

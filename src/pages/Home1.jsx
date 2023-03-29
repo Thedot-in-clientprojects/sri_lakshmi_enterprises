@@ -25,8 +25,8 @@ function Home1() {
             <Cta />
             <Faq />
             <Portfolio1 />
-            <Subscribe />
-            <Blog1 />
+            {/* <Subscribe /> */}
+            {/* <Blog1 /> */}
             <Footer1 />
         </>
     );

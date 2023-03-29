@@ -8,8 +8,7 @@ const contactData = [
         icon: <AiOutlineMail />,
         heading: 'Email Address',
         text: 'Sent mail asap anytime',
-        item1: 'info@example.com',
-        item2: 'jobs@example.com',
+        item1: 'adalarasanlakshmi@gmail.com',
     },
 
     {
@@ -17,8 +16,7 @@ const contactData = [
         icon: <AiOutlinePhone />,
         heading: 'Phone Number',
         text: 'call us asap anytime',
-        item1: '098-098-098-09',
-        item2: '+(098) 098-098-765',
+        item1: '+91 9842092187',
     },
 
     {
@@ -26,8 +24,7 @@ const contactData = [
         icon: <FaMapMarkerAlt />,
         heading: 'Office Address',
         text: 'Sent mail asap anytime',
-        item1: 'B2, Miranda City Tower',
-        item2: 'New York, US',
+        item1: 'Trini Garden Near Power House, Annur Road, Arasur, Po, Coimbatore, Tamil Nadu 641407',
     },
 ];
 

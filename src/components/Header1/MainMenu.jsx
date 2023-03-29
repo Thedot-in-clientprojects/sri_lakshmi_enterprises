@@ -21,9 +21,7 @@ function MainMenu({ hanldeOffset }) {
                                 <li>
                                     <Link to="/about">About</Link>
                                 </li>
-                                <li>
-                                    <Link to="/blogs">Blogs</Link>
-                                </li>
+                     
                                 <li>
                                     <Link to="/contact">Contact</Link>
                                 </li>
@@ -36,9 +34,9 @@ function MainMenu({ hanldeOffset }) {
                                 <FiSearch />
                             </i>
                         </button>
-                        <button type="button" onClick={hanldeOffset} className="side-menu-toggle">
+                        {/* <button type="button" onClick={hanldeOffset} className="side-menu-toggle">
                             <FaTh />
-                        </button>
+                        </button> */}
                     </div>
                 </div>
             </div>

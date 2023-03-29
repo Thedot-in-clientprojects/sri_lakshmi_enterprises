@@ -12,7 +12,7 @@ function Contact() {
             <Header1 />
             <PageBanner bannerBg={bannerBg} heading="Contact Us" currentPage="Contact" />
             <ContactUs />
-            <ContactForm title="Write Message" heading="Get In Touch" />
+            {/* <ContactForm title="Write Message" heading="Get In Touch" /> */}
             <Footer1 />
         </>
     );
