@@ -19,7 +19,6 @@ function Porfolio1() {
                                     image={data.image}
                                     imgLink={data.imgLink}
                                     category={data.category}
-                                    client={data.client}
                                     title={data.heading}
                                     desc={data.desc}
                                     btnText={data.btnText}

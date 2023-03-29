@@ -4,35 +4,28 @@ import thumb1 from '../../assets/img/approch1.jpg';
 import thumb2 from '../../assets/img/approch2.jpg';
 import thumb3 from '../../assets/img/approch3.jpg';
 
-const approchData = [
-    {
+const approchData = [{
         id: uuidv4(),
         thumb: thumb1,
-        icon: <FaDraftingCompass />,
+        icon: < FaDraftingCompass / > ,
         heading: 'Our Vision',
-        text: 'Lorem ipsum dolor sit amet, consectet ur adipisicing elit, sed do eiusmod',
         btnText: 'Read More',
-        pageLink: '/project-details',
     },
 
     {
         id: uuidv4(),
         thumb: thumb2,
-        icon: <FaPencilRuler />,
+        icon: < FaPencilRuler / > ,
         heading: 'Our Mission',
-        text: 'Lorem ipsum dolor sit amet, consectet ur adipisicing elit, sed do eiusmod',
         btnText: 'Read More',
-        pageLink: '/project-details',
     },
 
     {
         id: uuidv4(),
         thumb: thumb3,
-        icon: <FaHardHat />,
+        icon: < FaHardHat / > ,
         heading: 'Our Approch',
-        text: 'Lorem ipsum dolor sit amet, consectet ur adipisicing elit, sed do eiusmod',
         btnText: 'Read More',
-        pageLink: '/project-details',
     },
 ];
 

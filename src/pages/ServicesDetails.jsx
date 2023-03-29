@@ -18,12 +18,8 @@ function ServicesDetails() {
             <section className="service-details-wrapper section-padding">
                 <div className="container">
                     <div className="row">
-                        <div className="col-lg-3 col-md-4 mt-5 mt-md-0 col-12 order-2 order-md-1">
-                            <ServiceSidebar />
-                        </div>
-                        <div className="col-lg-9 col-md-8 col-12 order-1 order-md-2">
+                  
                             <ServiceDetails />
-                        </div>
                     </div>
                 </div>
             </section>

@@ -1,32 +1,31 @@
 import { v4 as uuidv4 } from 'uuid';
 
-const processItemData = [
-    {
+const processItemData = [{
         id: uuidv4(),
         number: '01',
         heading: 'Discussions About Project',
-        text: 'Lorem ipsum dolor sit amet, consectetur adipisic ing elit, sed do eiusmod tempor incididunt',
+        text: 'We discuss and brainstorm your machine ideas and finilise the plan',
     },
 
     {
         id: uuidv4(),
         number: '02',
         heading: 'Start Work With Team',
-        text: 'Lorem ipsum dolor sit amet, consectetur adipisic ing elit, sed do eiusmod tempor incididunt',
+        text: 'Our team works close with you and update the process every now and then',
     },
 
     {
         id: uuidv4(),
         number: '03',
-        heading: 'Handover & Save World',
-        text: 'Lorem ipsum dolor sit amet, consectetur adipisic ing elit, sed do eiusmod tempor incididunt',
+        heading: 'Handover & Test Machine',
+        text: 'We Testing the machine before handing over to the you',
     },
 
     {
         id: uuidv4(),
         number: '04',
-        heading: 'Great Wall Support',
-        text: 'Lorem ipsum dolor sit amet, consectetur adipisic ing elit, sed do eiusmod tempor incididunt',
+        heading: 'Great Support',
+        text: 'We will be with you and support you in your industrial journey, happy machine building',
     },
 ];
 

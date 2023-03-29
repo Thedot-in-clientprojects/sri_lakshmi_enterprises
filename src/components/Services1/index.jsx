@@ -9,8 +9,7 @@ function Services1() {
                 <div className="row">
                     <div className="col-12 col-lg-12">
                         <div className="section-title text-center">
-                            <span>Services</span>
-                            <p>Our Services</p>
+                            <span style={{ color: "#ffc54f" }}>Services</span>
                             <h1>What we do</h1>
                         </div>
                     </div>

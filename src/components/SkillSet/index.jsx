@@ -22,14 +22,13 @@ function SkillSet() {
                                 <span>Our Skill set</span>
                                 <h1>Our Professional and Creative Team</h1>
                                 <h4>
-                                    Capitalise on low hanging fruit to identify a ballpark value
-                                    added activity to beta test.
+                            
                                 </h4>
                             </div>
                             {/* PROGRESS BARS */}
-                            <SkillBar heading="Construction" progress="70%" />
-                            <SkillBar heading="Factoring" progress="90%" />
-                            <SkillBar heading="Industry" progress="85%" />
+                            <SkillBar heading="Building" progress="95%" />
+                            <SkillBar heading="Service" progress="90%" />
+                            <SkillBar heading="Customer Service" progress="98%" />
                         </div>
                     </div>
                 </div>

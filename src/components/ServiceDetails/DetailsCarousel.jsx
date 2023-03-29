@@ -2,9 +2,9 @@ import React from 'react';
 import SwiperCore, { Navigation, Pagination } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/swiper-bundle.min.css';
-import img1 from '../../assets/img/gallery/1.jpg';
-import img2 from '../../assets/img/gallery/2.jpg';
-import img3 from '../../assets/img/gallery/3.jpg';
+import img1 from '../../assets/img/gallery/11.png';
+import img2 from '../../assets/img/gallery/12.png';
+import img3 from '../../assets/img/gallery/13.png';
 
 SwiperCore.use([Navigation]);
 SwiperCore.use([Pagination]);

@@ -10,13 +10,7 @@ function AboutFeatured() {
     const [isOpen, setOpen] = useState(false);
     return (
         <>
-            <ModalVideo
-                channel="youtube"
-                autoplay
-                isOpen={isOpen}
-                videoId="EZ9DrY43wtw"
-                onClose={() => setOpen(false)}
-            />
+          
             <section className="about-featured-wrapper section-padding">
                 <div className="container">
                     <div className="row align-items-center">
@@ -44,24 +38,23 @@ function AboutFeatured() {
 
                         <div className="col-xl-6 col-lg-7 col-12 mt-5 mt-lg-0">
                             <div className="block-contents ml-lg-5">
-                                <span>Easily import the whole Industry</span>
-                                <h1>Amwerk is always interested.</h1>
+                                <span>About our journey</span>
+                                <h1>About Us</h1>
                                 <h4>
-                                    Capitalise on low hanging fruit to identify a ballpark value
-                                    added activity to beta test.
+                                Sri Lakshmi Enterprise is an end-to-end foundry machine manufacturing and service company based in Coimbatore, Tamil Nadu. Established in the year 2010, the company has been providing quality products and services to its customers for over a decade.
                                 </h4>
                             </div>
 
                             <div className="icon-boxs ml-lg-5">
                                 <IconBox
                                     icon={<FaHardHat />}
-                                    heading="Great Wall Support"
-                                    text="Lorem ipsum dolor sit amet, consectetur adipisic ing elit, sed do eiusmod tempor incididunt"
+                                    heading="We build machines for your needs"
+                                    text="The company offers a wide range of foundry machines such as sand mixers, core shooters, moulding machines, knockout machines, and sand reclamation plants."
                                 />
                                 <IconBox
                                     icon={<FaRoad />}
                                     heading="Creative Ideas"
-                                    text="Lorem ipsum dolor sit amet, consectetur adipisic ing elit, sed do eiusmod tempor incididunt"
+                                    text="They are also involved in the design, manufacturing, and installation of customized foundry machines that cater to the specific needs of their customers."
                                 />
                             </div>
                         </div>

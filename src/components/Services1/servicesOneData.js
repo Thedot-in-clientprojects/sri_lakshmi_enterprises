@@ -12,7 +12,7 @@ const servicesOneData = [{
         id: uuidv4(),
         bgImg: Bg1,
         icon: Icon1,
-        heading: 'Quick Coordinate E-business',
+        heading: 'Machine Manufacturing',
         btnText: 'Learn More',
     },
 
@@ -20,7 +20,7 @@ const servicesOneData = [{
         id: uuidv4(),
         bgImg: Bg2,
         icon: Icon2,
-        heading: 'Quick Coordinate E-business',
+        heading: 'Machine Services and Rebuilding',
         btnText: 'Learn More',
     },
 
@@ -28,7 +28,7 @@ const servicesOneData = [{
         id: uuidv4(),
         bgImg: Bg3,
         icon: Icon3,
-        heading: 'Quick Coordinate E-business',
+        heading: 'Foundry MachineTech',
         btnText: 'Learn More',
     },
 
@@ -36,7 +36,7 @@ const servicesOneData = [{
         id: uuidv4(),
         bgImg: Bg4,
         icon: Icon4,
-        heading: 'Quick Coordinate E-business',
+        heading: 'Industrial Shed Building',
         btnText: 'Learn More',
     },
 ];

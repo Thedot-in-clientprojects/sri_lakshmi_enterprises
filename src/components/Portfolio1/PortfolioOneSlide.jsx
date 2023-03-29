@@ -14,7 +14,6 @@ function PortfolioOneSlide({ image, category, client, title, desc, btnText }) {
                             </a>
                             <div className="client-info d-inline">
                                 <span>
-                                    <AiOutlineUser /> Client:
                                 </span>{' '}
                                 {client}
                             </div>

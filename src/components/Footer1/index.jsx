@@ -26,7 +26,7 @@ function Footer1() {
                     <div className="row">
                         {/* ABOUT WIDGET */}
                         <WidgetAbout
-                            text="Use Wix's Advanced Web Page Design Tools to Create Your Professional Site in an Instant! Experience Total Design Freedom and the Ability to Customize Your Site as You Wish! Social media compatible with design."
+                            text="Sri Lakshmi Enterprise is a leading manufacturing company based in Coimbatore, India, specializing in the production of foundry machinery and industrial sheds. Our company was established with the vision to provide top-quality products that cater to the needs of the foundry industry."
                             fbLink="/"
                             twitterLink="/"
                             instaLink="/"
@@ -66,8 +66,8 @@ function Footer1() {
                             </div>
                         </div>
                         <div className="col-lg-4 col-12 text-center">
-                            <div className="footer-logo">
-                                <a href="#top">
+                            <div className="footer-logo" style={{ backgroundColor:"#ffc54f" }}>
+                                <a href="#top"  style={{ backgroundColor:"#ED9F00", marginTop:5 }}>
                                     <h2>Sri Lakshmi Enterprises</h2>
                                 </a>
                             </div>
