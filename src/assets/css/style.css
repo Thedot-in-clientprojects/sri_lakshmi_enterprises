@@ -6942,6 +6942,10 @@ header.header-3 .mobile-menu-bar {
     border-color: #ffc54f;
 }
 
+.about-img {
+    width: 10%;
+}
+
 .single-pricing-table::before {
     position: absolute;
     width: 100%;

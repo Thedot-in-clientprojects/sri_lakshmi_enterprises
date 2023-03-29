@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { FaHardHat, FaPlay, FaRoad } from 'react-icons/fa';
 import ModalVideo from 'react-modal-video';
 import '../../../node_modules/react-modal-video/scss/modal-video.scss';
-import aboutImg from '../../assets/img/about_us.jpg';
+import aboutImg from '../../assets/img/founder.jpg';
 import btnImg from '../../assets/img/skill_bg.jpg';
 import IconBox from './IconBox';
 
@@ -16,23 +16,9 @@ function AboutFeatured() {
                     <div className="row align-items-center">
                         <div className="col-xl-6 col-lg-5 col-12">
                             <div
-                                className="about-promo bg-cover"
                                 style={{ backgroundImage: `url(${aboutImg})` }}
                             >
-                                <div
-                                    className="skill-popup-video d-flex justify-content-center align-items-center bg-cover"
-                                    style={{ backgroundImage: `url(${btnImg})` }}
-                                >
-                                    <div className="video-play-btn">
-                                        <button
-                                            type="button"
-                                            className="modal-btn"
-                                            onClick={() => setOpen(true)}
-                                        >
-                                            <FaPlay />
-                                        </button>
-                                    </div>
-                                </div>
+                                <img src={aboutImg} className='about-img'/>
                             </div>
                         </div>
 
