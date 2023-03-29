@@ -9,7 +9,11 @@ import thumb6 from '../../assets/img/service6.jpg';
 import Bg1 from '../../assets/img/home1/one.png';
 import Bg3 from '../../assets/img/home1/two.png';
 import Bg4 from '../../assets/img/home1/three.png';
-import Bg2 from '../../assets/img/home1/power.jpg';
+import Bg5 from '../../assets/img/home1/sandmould.png';
+import Bg6 from '../../assets/img/home1/sandmix.png';
+import Bg7 from '../../assets/img/home1/ished.png';
+import Bg8 from '../../assets/img/home1/imould.png';
+import Bg9 from '../../assets/img/home1/rtrack.png';
 
 const servicesTwoData = [{
         id: uuidv4(),
@@ -32,6 +36,41 @@ const servicesTwoData = [{
         thumbnail: Bg4,
         icon: < FaTruckMoving / > ,
         heading: 'Bucket',
+        text: 'We offer bucket 100Kg to 2Tons service and manufacture.',
+    },
+    {
+        id: uuidv4(),
+        thumbnail: Bg5,
+        icon: < FaTruckMoving / > ,
+        heading: 'Sand Moulding',
+        text: 'We offer bucket 100Kg to 2Tons service and manufacture.',
+    },
+    {
+        id: uuidv4(),
+        thumbnail: Bg6,
+        icon: < FaTruckMoving / > ,
+        heading: 'Sand Mixture',
+        text: 'We offer bucket 100Kg to 2Tons service and manufacture.',
+    },
+    {
+        id: uuidv4(),
+        thumbnail: Bg7,
+        icon: < FaTruckMoving / > ,
+        heading: 'Industrial Shed',
+        text: 'We offer bucket 100Kg to 2Tons service and manufacture.',
+    },
+    {
+        id: uuidv4(),
+        thumbnail: Bg8,
+        icon: < FaTruckMoving / > ,
+        heading: 'Foundry Moulding Box',
+        text: 'We offer bucket 100Kg to 2Tons service and manufacture.',
+    },
+    {
+        id: uuidv4(),
+        thumbnail: Bg9,
+        icon: < FaTruckMoving / > ,
+        heading: 'Railway Track Manufacturing',
         text: 'We offer bucket 100Kg to 2Tons service and manufacture.',
     },
 
